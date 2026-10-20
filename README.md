@@ -1,7 +1,9 @@
 # osf_miami_heatwatch_replica_plot
 
-This code produces plots similar to those reported in CAPA Strategies' Miami Heat Watch Report for June 27, 2020. The generated plots (right) reflect their corresponding originals (left) in their temperature distribution for each time frame. 
+This code produces plots similar to those reported in CAPA Strategies' Miami Heat Watch Report for June 27, 2020. The generated plots (right) reflect their corresponding originals (left) in their heat distribution for each time frame. 
 Improvements to be made to further improve the accuracy of the generated plots include properly identifying the boundary region of the area where the traverse data was collected. While there exist sections in the code to identify this region and indicate it on the map, the model boundary was unable to be found. Additionally, changes in the color of the plots (specifically darkening the region of data collection to provide better contrast with the colored lines) would further aid in creating a more precise visual reproduction.
+
+Upon first glance at the plots, the morning appears to be hotter overall if one is strictly operating from the logic of the color code, where red indicates higher temperatures and blue represents lower ones. It is important to note that the temperatures listed on the legend (i.e. the ones driving the visual temperature gradient) are not consistent across the three plots, and thus the color code is relative to the temperature data from that specific time frame. From this, the 84 degree Fahrenheit upper bound of the morning soon becomes the lower bound of the afternoon and evening. As a result, the red regions in the latter two plots better highlight the areas that are more significantly impacted by extreme heat conditions. 
 
 <img width="402" height="526" alt="Screenshot 2026-10-19 180756" src="https://github.com/user-attachments/assets/b0e8be0c-b41b-4ef2-9e51-492d2dae91b5" />
 <img width="402" height="526" alt="Screenshot 2026-10-20 015832" src="https://github.com/user-attachments/assets/b2ce87c0-e647-4be6-bf9a-5ebdeee7483a" />
