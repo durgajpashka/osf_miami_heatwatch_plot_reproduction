@@ -1,7 +1,7 @@
 # osf_miami_heatwatch_replica_plot
 
-This code produces plots similar to those reported in CAPA Strategies' Miami Heat Watch Report for June 27, 2020. The generated plots reflect the original in their temperature distribution for each time frame. 
-Improvements that can be made to further improve the accuracy of the generated plots include properly identifying the boundary region of the area where the traverse data was collected. While there exist sections in the code to identify this region and indicate it on the map, the boundary was unable to be found. Additionally, changes in the color of the plots (specifically darkening the region of data collection) would further aid in creating a more precise replica.
+This code produces plots similar to those reported in CAPA Strategies' Miami Heat Watch Report for June 27, 2020. The generated plots (right) reflect their corresponding originals (left) in their temperature distribution for each time frame. 
+Improvements to be made to further improve the accuracy of the generated plots include properly identifying the boundary region of the area where the traverse data was collected. While there exist sections in the code to identify this region and indicate it on the map, the model boundary was unable to be found. Additionally, changes in the color of the plots (specifically darkening the region of data collection) would further aid in creating a more precise visual reproduction.
 
 <img width="402" height="526" alt="Screenshot 2026-10-19 180756" src="https://github.com/user-attachments/assets/b0e8be0c-b41b-4ef2-9e51-492d2dae91b5" />
 <img width="402" height="526" alt="Screenshot 2026-10-20 015832" src="https://github.com/user-attachments/assets/b2ce87c0-e647-4be6-bf9a-5ebdeee7483a" />
